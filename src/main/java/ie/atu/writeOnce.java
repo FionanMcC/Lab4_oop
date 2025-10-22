@@ -9,7 +9,7 @@ public class writeOnce {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the file name (e.g., students.txt):" );
+        System.out.print("Enter the file name (.e.g., students.txt):" );
         String filename = sc.nextLine();
 
         System.out.print("Enter a name to save: " );
@@ -28,3 +28,4 @@ public class writeOnce {
         }
     }
 }
+
